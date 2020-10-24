@@ -66,16 +66,34 @@ overflow: scroll;
 
 <!-- Trigger/Open The Modal -->
 <button id="myBtn">Open Modal</button>
-<h2>Modal Example</h2>
-<h2>Modal Example</h2>
-<h2>Modal Example</h2>
-<h2>Modal Example</h2>
-<h2>Modal Example</h2>
-<h2>Modal Example</h2>
-<h2>Modal Example</h2>
-<h2>Modal Example</h2>
-<h2>Modal Example</h2>
+<h2>Modal Example1</h2>
+<h2>Modal Example2</h2>
+<h2>Modal Example3</h2>
+<h2>Modal Example4</h2>
+<h2>Modal Example5</h2>
+<h2>Modal Example6</h2>
+<h2>Modal Example7</h2>
+<h2>Modal Example8</h2>
+<h2>Modal Example9</h2>
 <h2>Modal Example10</h2>
+<h2>Modal Example11</h2>
+<h2>Modal Example12</h2>
+<h2>Modal Example13</h2>
+<h2>Modal Example14</h2>
+<h2>Modal Example15</h2>
+<h2>Modal Example16</h2>
+<h2>Modal Example17</h2>
+<h2>Modal Example18</h2>
+<h2>Modal Example19</h2>
+<h2>Modal Example20</h2>
+<h2>Modal Example21</h2>
+<h2>Modal Example22</h2>
+<h2>Modal Example23</h2>
+<h2>Modal Example24</h2>
+<h2>Modal Example25</h2>
+<h2>Modal Example26</h2>
+<h2>Modal Example27</h2>
+<h2>Modal ExampleLast</h2>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -103,6 +121,7 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
+  window.scrollTo(0,2000);
   modal.style.display = "block";
   document.getElementsByTagName("body")[0].style.overflow = "hidden";
 }
@@ -111,6 +130,7 @@ btn.onclick = function() {
 span.onclick = function() {
   modal.style.display = "none";
   document.getElementsByTagName("body")[0].style.overflow = "scroll";
+  window.scrollTo(0,500);
 }
 
 // When the user clicks anywhere outside of the modal, close it
