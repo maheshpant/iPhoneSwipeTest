@@ -121,7 +121,6 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
-  window.scrollTo(0,2000);
   modal.style.display = "block";
   document.getElementsByTagName("body")[0].style.overflow = "hidden";
 }
@@ -130,7 +129,6 @@ btn.onclick = function() {
 span.onclick = function() {
   modal.style.display = "none";
   document.getElementsByTagName("body")[0].style.overflow = "scroll";
-  window.scrollTo(0,500);
 }
 
 // When the user clicks anywhere outside of the modal, close it
